@@ -17,14 +17,12 @@ like correlogram and scatterplot by uploading CSV file.
 \details{
 This app uses \code{cor.test} to calculate correlation. Correlation matrix
 is calculated using \code{rcorr} function in \code{Hmisc} package. Correlogram
-is obtained using \code{corrplot} function in \code{corrplot} package
+is obtained using \code{corrplot} function in \code{corrplot} package.
 }
 \examples{
-if(interactive()){
-corrApp()
+if (interactive()) {
+  corrApp()
 }
-
-
 }
 \references{
 \insertRef{corrplot2021}{grapesAgri1}
